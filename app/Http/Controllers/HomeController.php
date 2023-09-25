@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        $product = Product::all();
+        $product = Product::orderBy('created_at')->take(4)->get();
 
         return view('home.index',['products'=>$product]);
     }

@@ -140,6 +140,7 @@
                         <div class="product">
                             <div class="product_image"><img src="{{$image}}" alt="{{$image}}"></div>
                             <div class="product_content">
+                                <h1>{{$product->category['title']}}</h1>
                                 <div class="product_title"><a href="{{route("show_product",['category',$product->id])}}">{{$product->title}}</a></div>
                                 @if($product->new_price != null)
                                     <div class="product_discount">${{$product->price}}</div>
