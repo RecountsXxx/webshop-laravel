@@ -36,7 +36,10 @@ class ProductController extends Controller
         }
 
         if($request->ajax()){
-            return $request->orderBy;
+            return view('ajax.order-by', [
+                'category' => $cat,
+                'products' => $products,
+            ])->render();
         }
         return view('category.index', [
             'category' => $cat,

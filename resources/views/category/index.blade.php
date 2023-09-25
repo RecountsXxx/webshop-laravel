@@ -184,7 +184,6 @@
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                     },
                     success: (data) => {
-                        console.log(data);
                         let positionParameters = location.pathname.indexOf('?');
                         let url = location.pathname.substring(positionParameters,location.pathname.length);
                         let newURL = url + '?'; // http://127.0.0.1:8001/phones?
