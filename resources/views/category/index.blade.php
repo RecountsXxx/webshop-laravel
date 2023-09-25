@@ -41,9 +41,12 @@
                                         <span class="sorting_text">Sort by</span>
                                         <i class="fa fa-chevron-down" aria-hidden="true"></i>
                                         <ul>
-                                            <li class="product_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'><span>Default</span></li>
-                                            <li class="product_sorting_btn" data-isotope-option='{ "sortBy": "price" }'><span>Price</span></li>
-                                            <li class="product_sorting_btn" data-isotope-option='{ "sortBy": "stars" }'><span>Name</span></li>
+                                            <li class="product_sorting_btn" data-order="default"><span>Default</span></li>
+                                            <li class="product_sorting_btn" data-order="price-low-high"><span>Price: Low-High</span></li>
+                                            <li class="product_sorting_btn" data-order="price-high-low"><span>Price: High-Low</span></li>
+                                            <li class="product_sorting_btn" data-order="name-a-z"><span>Name: A-Z</span></li>
+                                            <li class="product_sorting_btn" data-order="name-z-a"><span>Name: Z-A</span></li>
+
                                         </ul>
                                     </li>
                                 </ul>
@@ -162,4 +165,49 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('custom_js')
+    <script>
+        $(document).ready(function () {
+            $('.product_sorting_btn').click(function () {
+                let orderBy = $(this).data('order')
+                $('.sorting_text').text($(this).find('span').text())
+
+                $.ajax({
+                    url: "{{route('show_category',$category->alias)}}",
+                    type: "GET",
+                    data: {
+                        orderBy: orderBy,
+                    },
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    success: (data) => {
+                        console.log(data);
+                        let positionParameters = location.pathname.indexOf('?');
+                        let url = location.pathname.substring(positionParameters,location.pathname.length);
+                        let newURL = url + '?'; // http://127.0.0.1:8001/phones?
+                        newURL += 'orderBy=' + orderBy; // http://127.0.0.1:8001/phones?orderBy=name-z-a
+                        history.pushState({}, '', newURL);
+                        $('.product_grid').html(data)
+
+                        $('.product_grid').isotope('destroy')
+                        $('.product_grid').imagesLoaded( function() {
+                            let grid = $('.product_grid').isotope({
+                                itemSelector: '.product',
+                                layoutMode: 'fitRows',
+                                fitRows:
+                                    {
+                                        gutter: 30
+                                    }
+                            });
+                        });
+
+                    }
+                });
+            })
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 @endsection
