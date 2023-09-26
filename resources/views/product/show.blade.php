@@ -5,6 +5,10 @@
     <link rel="stylesheet" type="text/css" href="{{asset('styles/product_responsive.css')}}">
 @endsection
 
+@section('custom_js')
+    <script src="{{asset('js/product.js')}}"></script>
+@endsection
+
 @section('content')
     <div class="product_details">
         <div class="home">
@@ -82,7 +86,7 @@
                                     <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
                                 </div>
                             </div>
-                            <div class="button cart_button"><a href="{{route('add_to_cart',['id'=>$item->id])}}">Add to cart</a></div>
+                                <div type="submit" class="button cart_button"><a href="{{ route('cart_add', $item->id) }}">Add to cart</a></div>
                         </div>
 
                         <!-- Share -->

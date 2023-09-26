@@ -16,7 +16,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+    'Cart' => Darryldecode\Cart\Facades\CartFacade::class,
     /*
     |--------------------------------------------------------------------------
     | Application Environment
