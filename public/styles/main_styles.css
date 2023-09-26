@@ -1081,8 +1081,15 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 99px;
+	padding-top: -10px;
 	z-index: 2;
+}
+.products_app
+{
+    width: 100%;
+    background: #FFFFFF;
+    padding-top: 80px;
+    z-index: 2;
 }
 .product
 {

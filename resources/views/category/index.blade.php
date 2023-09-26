@@ -83,15 +83,7 @@
                             </div>
                         @endforeach
                     </div>
-                    {{$products->links()}}
-                    <div class="product_pagination">
-                        <ul>
-                            <li class="active"><a href="#">01.</a></li>
-                            <li><a href="#">02.</a></li>
-                            <li><a href="#">03.</a></li>
-                        </ul>
-                    </div>
-
+                    {{$products->appends(request()->query())->links()}}
                 </div>
             </div>
         </div>
@@ -179,6 +171,7 @@
                     type: "GET",
                     data: {
                         orderBy: orderBy,
+                        page: {{isset($_GET['page']) ? $_GET['page'] : 1}}
                     },
                     headers: {
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -187,7 +180,7 @@
                         let positionParameters = location.pathname.indexOf('?');
                         let url = location.pathname.substring(positionParameters,location.pathname.length);
                         let newURL = url + '?'; // http://127.0.0.1:8001/phones?
-                        newURL += 'orderBy=' + orderBy; // http://127.0.0.1:8001/phones?orderBy=name-z-a
+                        newURL += 'orderBy=' + orderBy + "&page={{isset($_GET['page']) ? $_GET['page'] : 1}}"; // http://127.0.0.1:8001/phones?orderBy=name-z-a
                         history.pushState({}, '', newURL);
                         $('.product_grid').html(data)
 

@@ -82,7 +82,7 @@
                                     <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
                                 </div>
                             </div>
-                            <div class="button cart_button"><a href="#">Add to cart</a></div>
+                            <div class="button cart_button"><a href="{{route('add_to_cart',['id'=>$item->id])}}">Add to cart</a></div>
                         </div>
 
                         <!-- Share -->

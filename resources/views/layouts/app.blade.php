@@ -28,35 +28,26 @@
                 <div class="row">
                     <div class="col">
                         <div class="header_content d-flex flex-row align-items-center justify-content-start">
-                            <div class="logo"><a href="#">Sublime.</a></div>
+                            <div class="logo"><a href="{{route('home')}}">Sublime.</a></div>
                             <nav class="main_nav">
                                 <ul>
-                                    <li class="hassubs active">
-                                        <a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="categories.html">Categories</a></li>
-                                            <li><a href="product.html">Product</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Check out</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
+                                    <li class="active">
+                                        <a href="{{route('home')}}">Home</a>
                                     </li>
                                     <li class="hassubs">
-                                        <a href="categories.html">Categories</a>
+                                        <a href="#">Categories</a>
                                         <ul>
                                             @foreach($categories as $category)
                                                 <li><a href="{{route('show_category',$category->alias)}}">{{$category->title}}</a></li>
                                             @endforeach
                                         </ul>
                                     </li>
-                                    <li><a href="#">Accessories</a></li>
-                                    <li><a href="#">Offers</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{route('contact')}}">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="header_extra ml-auto">
                                 <div class="shopping_cart">
-                                    <a href="cart.html">
+                                    <a href="{{route('cart_index')}}">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                              viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
 											<g>
@@ -137,27 +128,16 @@
                     </form>
                 </div>
                 <ul class="page_menu_nav menu_mm">
+                    <li class="page_menu_item menu_mm"><a href="{{route('home')}}">Home<i class="fa fa-angle-down"></i></a></li>
                     <li class="page_menu_item has-children menu_mm">
-                        <a href="index.html">Home<i class="fa fa-angle-down"></i></a>
-                        <ul class="page_menu_selection menu_mm">
-                            <li class="page_menu_item menu_mm"><a href="categories.html">Categories<i class="fa fa-angle-down"></i></a></li>
-                            <li class="page_menu_item menu_mm"><a href="product.html">Product<i class="fa fa-angle-down"></i></a></li>
-                            <li class="page_menu_item menu_mm"><a href="cart.html">Cart<i class="fa fa-angle-down"></i></a></li>
-                            <li class="page_menu_item menu_mm"><a href="checkout.html">Checkout<i class="fa fa-angle-down"></i></a></li>
-                            <li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
-                        </ul>
-                    </li>
-                    <li class="page_menu_item has-children menu_mm">
-                        <a href="categories.html">Categories<i class="fa fa-angle-down"></i></a>
+                        <a href="#">Categories<i class="fa fa-angle-down"></i></a>
                         <ul class="page_menu_selection menu_mm">
                             @foreach($categories as $category)
-                                <li class="page_menu_item menu_mm"><a href="{{$category->alias}}">{{$category->title}}<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item menu_mm"><a href="{{route('show_category',$category->alias)}}">{{$category->title}}<i class="fa fa-angle-down"></i></a></li>
                             @endforeach
                         </ul>
                     </li>
-                    <li class="page_menu_item menu_mm"><a href="index.html">Accessories<i class="fa fa-angle-down"></i></a></li>
-                    <li class="page_menu_item menu_mm"><a href="#">Offers<i class="fa fa-angle-down"></i></a></li>
-                    <li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+                    <li class="page_menu_item menu_mm"><a href="{{route('contact')}}">Contact<i class="fa fa-angle-down"></i></a></li>
                 </ul>
             </div>
         </div>
