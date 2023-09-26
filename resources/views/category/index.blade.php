@@ -82,8 +82,8 @@
                                 </div>
                             </div>
                         @endforeach
-
                     </div>
+                    {{$products->links()}}
                     <div class="product_pagination">
                         <ul>
                             <li class="active"><a href="#">01.</a></li>
