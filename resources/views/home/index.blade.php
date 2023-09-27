@@ -118,9 +118,6 @@
         </div>
     </div>
 </div>
-
-<!-- Products -->
-
 <div class="products_app">
     <div class="container">
         <div class="row">
