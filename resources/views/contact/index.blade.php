@@ -1,5 +1,8 @@
 @extends('layouts.app');
 
+@section('custom_css')
+    <link rel="stylesheet" type="text/css" href="/styles/fonts.css">
+@endsection
 
 @section('content')
     <div class="home">
