@@ -52,7 +52,7 @@
                             <div class="home_content">
                                 <div class="breadcrumbs">
                                     <ul>
-                                        <li><a href="{{route('home')}}">Home</a></li>
+                                        <li><a href="{{route('index')}}">Home</a></li>
                                         <li>Shopping Cart</li>
                                     </ul>
                                 </div>
@@ -115,7 +115,7 @@
             <div class="row row_cart_buttons">
                 <div class="col">
                     <div class="cart_buttons d-flex flex-lg-row flex-column align-items-start justify-content-start">
-                        <div class="button continue_shopping_button"><a href="{{route('home')}}">Continue shopping</a></div>
+                        <div class="button continue_shopping_button"><a href="{{route('index')}}">Continue shopping</a></div>
                         <div class="cart_buttons_right ml-lg-auto">
                             <div class="button clear_cart_button"><a href="{{route('clear_cart')}}">Clear cart</a></div>
                         </div>
