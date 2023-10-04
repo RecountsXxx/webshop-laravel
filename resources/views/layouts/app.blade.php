@@ -35,11 +35,11 @@ session_start();
                 <div class="row">
                     <div class="col">
                         <div class="header_content d-flex flex-row align-items-center justify-content-start">
-                            <div class="logo"><a href="{{route('home')}}">Sublime.</a></div>
+                            <div class="logo"><a href="{{route('index')}}">Sublime.</a></div>
                             <nav class="main_nav">
                                 <ul>
                                     <li class="active">
-                                        <a href="{{route('home')}}">Home</a>
+                                        <a href="{{route('index')}}">Home</a>
                                     </li>
                                     <li class="hassubs">
                                         <a href="#">Categories</a>
@@ -149,7 +149,7 @@ session_start();
                     </form>
                 </div>
                 <ul class="page_menu_nav menu_mm">
-                    <li class="page_menu_item menu_mm"><a href="{{route('home')}}">Home<i class="fa fa-angle-down"></i></a></li>
+                    <li class="page_menu_item menu_mm"><a href="{{route('index')}}">Home<i class="fa fa-angle-down"></i></a></li>
                     <li class="page_menu_item has-children menu_mm">
                         <a href="#">Categories<i class="fa fa-angle-down"></i></a>
                         <ul class="page_menu_selection menu_mm">

@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', '\App\Http\Controllers\HomeController@index')->name('home');
+Route::get('/', '\App\Http\Controllers\HomeController@index')->name('index');
 Route::get('/category/{cat}', '\App\Http\Controllers\ProductController@showCategory')->name('show_category');
 Route::get('/category/{cat}/{id}', '\App\Http\Controllers\ProductController@show')->name('show_product');
 Route::get('/cart', '\App\Http\Controllers\CartController@index')->name('cart_index');
@@ -24,4 +25,3 @@ Route::get('/contact', function(){return view('contact.index');})->name('contact
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
