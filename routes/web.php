@@ -22,6 +22,9 @@ Route::get('/cart/add/{id}', '\App\Http\Controllers\CartController@addToCart')->
 Route::get('/cart/remove/{index}', '\App\Http\Controllers\CartController@removeFromCart')->name('cart_remove');
 Route::get('/cart/clear', '\App\Http\Controllers\CartController@clearCart')->name('clear_cart');
 Route::get('/contact', function(){return view('contact.index');})->name('contact');
+Route::group(['middleware' => ['role:admin']], function () {
+    Route::get('/admin-panel','\App\Http\Controllers\AdminController@index')->name('admin-panel');
+});
 
 Auth::routes();
 

@@ -50,6 +50,11 @@ session_start();
                                         </ul>
                                     </li>
                                     <li><a href="{{route('contact')}}">Contact</a></li>
+                                    @auth
+                                    @if(auth()->user()->hasRole('admin'))
+                                        <li><a href="{{route('admin-panel')}}">Admin panel</a></li>
+                                    @endif
+                                        @endauth
                                 </ul>
                             </nav>
                             <div class="header_extra ml-auto flex-row d-flex gap-1">
@@ -159,6 +164,9 @@ session_start();
                         </ul>
                     </li>
                     <li class="page_menu_item menu_mm"><a href="{{route('contact')}}">Contact<i class="fa fa-angle-down"></i></a></li>
+                    @can('admin')
+                        <li class="page_menu_item menu_mm"><a href="{{route('admin-panel')}}">Admin<i class="fa fa-angle-down"></i></a></li>
+                    @endcan
                 </ul>
             </div>
         </div>
