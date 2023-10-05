@@ -55,6 +55,9 @@
                     </div>
                 </div>
             </div>
+            @if(count($products) <= 0)
+                <h2>Not products!</h2>
+            @endif
             <div class="row">
                 <div class="col">
 
