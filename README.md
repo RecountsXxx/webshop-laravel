@@ -31,13 +31,13 @@ Join us on this shopping journey, where convenience, variety, and a seamless use
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_4.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_6.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_7.png" alt="photos" width="1920">
-<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_8.png" alt="photos" width="1920">
-<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_9.png" alt="photos" width="1920">
-<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_10.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_12.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_13.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_14.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_15.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_16.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_8.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_9.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_10.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_11.png" alt="photos" width="1920">
 design
