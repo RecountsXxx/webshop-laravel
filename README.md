@@ -1,66 +1,43 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1>Welcome to my project online shopping platform! Our internet store is your one-stop destination for an exceptional shopping experience.</h1>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h2>Explore a World of Products:</h2>
+Browse through various product categories, each offering a diverse range of items to cater to your needs and desires.
+Our homepage showcases popular and trending products, giving you quick access to the latest and most sought-after items.
+Discover what sets us apart with our unique and standout features that elevate your shopping experience.
 
-## About Laravel
+<h2>User-Friendly Authentication:</h2>
+Seamlessly log in or create a new account with our user-friendly authentication system.
+Enjoy the benefits of a registered user, including the ability to save your favorite items, track orders, and more.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>Effortless Shopping:</h2>
+Navigate category pages effortlessly with user-friendly pagination and powerful filtering options to refine your search.
+Dive deeper into product details by clicking on items to view multiple images, detailed descriptions, and customer reviews.
+Add products to your shopping cart with a simple click and proceed to choose your preferred delivery service for a hassle-free checkout.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h2>Empowering Admin Panel:</h2>
+Admins have exclusive access to the 'Admin Panel' through a dedicated link in the top menu.
+Manage and enrich your online store by effortlessly adding new products, categories, or users.
+Exercise full control by editing or deleting products, categories, and user accounts as needed.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h2>Adaptive Design:</h2>
+Experience the same level of comfort and ease across all devices, thanks to our responsive and adaptive design.
+Join us on this shopping journey, where convenience, variety, and a seamless user experience are our top priorities. Happy shopping!"
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h2>Design</h2>
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_1.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_2.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_3.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_4.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_5.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_6.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_7.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_8.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_9.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_10.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_11.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_12.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_13.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_14.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_15.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_16.png" alt="photos" width="1920">
+design
