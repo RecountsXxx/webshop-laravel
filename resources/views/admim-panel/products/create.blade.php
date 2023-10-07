@@ -43,8 +43,8 @@
                                     <option value="{{$category->id}}">{{$category->title}}</option>
                                 @endforeach
                             </select>
-                            <label for="image">Image category</label>
-                            <input type="file" class="form-control-file" id="image" name="image">
+                            <label for="image">Image</label>
+                            <input type="file" class="form-control-file" multiple name="image[]">
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </div>
