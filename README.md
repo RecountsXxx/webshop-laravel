@@ -26,9 +26,8 @@ Join us on this shopping journey, where convenience, variety, and a seamless use
 <h2>Design</h2>
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_5.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_1.png" alt="photos" width="1920">
-<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_2.png" alt="photos" width="1920">
-<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_3.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_4.png" alt="photos" width="1920">
+<img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_2.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_6.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_7.png" alt="photos" width="1920">
 <img src="https://github.com/RecountsXxx/webshop-laravel/blob/master/images_for_github/images_11.png" alt="photos" width="1920">
